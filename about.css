@@ -9,3 +9,9 @@ h1{
     font-size: 40px;
 }
 
+.ingredienser{
+   background-color: #b0926f; 
+   color: white;
+   border: 2px solid white;
+   border-radius: 30px;
+}
