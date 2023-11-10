@@ -28,6 +28,7 @@ h1{
    margin-right: 15px;
    padding: 15px;
    height: 650px;
+   width: 650px;
 }
 
 
@@ -44,7 +45,18 @@ section{
     color: white;
     border: 2px solid white;
     border-radius: 30px;
+    text-align: center;
+}
+
+.recept{
+    display: flex;
+    flex-direction: row;
+    color: white;
     padding: 15px;
+}
+
+section div{
+    height: 200px;
 }
 
 button{
@@ -52,27 +64,33 @@ button{
     color: white;
     padding: 16px;
     font-size: 16px;
+    width: 200px;
+    height: 45px;
     border: none;
 }
 
 .steg1{
     position: relative;
     display: inline-block;
+    border: 2px solid white;
 }
 
 .steg2{
     position: relative;
     display: inline-block;
+    border: 2px solid white;
 }
 
 .steg3{
     position: relative;
     display: inline-block;
+    border: 2px solid white;
 }
 
 .steg4{
     position: relative;
     display: inline-block;
+    border: 2px solid white;
 }
 
 .steg1-dropdown{
@@ -89,6 +107,7 @@ button{
     position: absolute;
     background-color: #b0926f;
     min-width: 160px;
+    width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 
@@ -190,4 +209,24 @@ button{
 }
 
 
+
+.steg1 img{
+    width: 200px;
+    height: 150px;
+}
+
+.steg2 img{
+    width: 200px;
+    height: 150px;
+}
+
+.steg3 img{
+    width: 200px;
+    height: 150px;
+}
+
+.steg4 img{
+    width: 200px;
+    height: 150px;
+}
 
