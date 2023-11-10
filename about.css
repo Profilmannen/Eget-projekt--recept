@@ -2,6 +2,14 @@ body{
     background-color: #e7debe;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+
 h1{
     font-family: 'Dancing Script', cursive;
     font-family: 'Italianno', cursive;
@@ -14,4 +22,14 @@ h1{
    color: white;
    border: 2px solid white;
    border-radius: 30px;
+   margin-right: 15px;
+   padding: 15px;
+}
+
+section{
+    background-color: #b0926f;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
 }

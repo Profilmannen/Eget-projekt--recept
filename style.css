@@ -54,7 +54,7 @@ main{
 }
 
 .bild img{
-    border: 2px solid #b0926f;
+    border: 2px solid white;
     border-radius: 30px;
     height: 410px;
     width: 700px;
