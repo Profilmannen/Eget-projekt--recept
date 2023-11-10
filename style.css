@@ -1,0 +1,18 @@
+body{
+    background-color: #e7debe;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Italianno', cursive;
+    font-size: 20px
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+}
