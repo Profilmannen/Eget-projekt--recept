@@ -47,7 +47,7 @@ section{
     padding: 15px;
 }
 
-.knapp{
+button{
     background-color: #b0926f;
     color: white;
     padding: 16px;
@@ -60,7 +60,50 @@ section{
     display: inline-block;
 }
 
+.steg2{
+    position: relative;
+    display: inline-block;
+}
+
+.steg3{
+    position: relative;
+    display: inline-block;
+}
+
+.steg4{
+    position: relative;
+    display: inline-block;
+}
+
 .steg1-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #b0926f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.steg2-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #b0926f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.steg3-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #b0926f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.steg4-dropdown{
     display: none;
     position: absolute;
     background-color: #b0926f;
@@ -76,15 +119,73 @@ section{
     display: block;
 }
 
-.steg1-dropdown p:hover{
-    background-color: #e7debe;
+.steg2-dropdown li{
+    color: white;
+    padding: 16px 12px;
+    text-decoration: none;
+    display: block;
 }
+
+.steg3-dropdown p{
+    color: white;
+    padding: 16px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.steg4-dropdown p{
+    color: white;
+    padding: 16px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.steg1-dropdown p:hover{
+    background-color: #b0926f;
+}
+
+.steg2-dropdown p:hover{
+    background-color: #b0926f;
+}
+
+.steg3-dropdown p:hover{
+    background-color: #b0926f;
+}
+
+.steg4-dropdown p:hover{
+    background-color: #b0926f;
+}
+
 
 .steg1:hover .steg1-dropdown{
     display: block;
 }
 
-.steg1:hover .knapp{
+.steg2:hover .steg2-dropdown{
+    display: block;
+}
+
+.steg3:hover .steg3-dropdown{
+    display: block;
+}
+
+.steg4:hover .steg4-dropdown{
+    display: block;
+}
+
+.steg1:hover button{
+    background-color: #e7debe;
+}
+
+.steg2:hover button{
+    background-color: #e7debe;
+}
+
+.steg3:hover button{
+    background-color: #e7debe;
+}
+
+.steg4:hover button{
     background-color: #e7debe;
 }
 
