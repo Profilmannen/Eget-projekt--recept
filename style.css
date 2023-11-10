@@ -16,3 +16,31 @@ header img{
     height: 100px;
     width: 100px;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.info{
+    background-color: #b0926f;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 25px;
+}
+
+.bilder{
+    display: flex;
+    flex-direction: row;
+}
+
+.bilder img{
+    margin: 15px;
+    width: 160px;
+    border: 2px solid white;
+}
+
