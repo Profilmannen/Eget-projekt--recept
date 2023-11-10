@@ -44,3 +44,14 @@ main{
     border: 2px solid white;
 }
 
+.bild{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.bild img{
+    border: 2px solid #b0926f;
+    border-radius: 40px;
+    height: 410px;
+    width: 700px;
+}
