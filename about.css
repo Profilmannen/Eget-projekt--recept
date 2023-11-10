@@ -81,13 +81,12 @@ section{
 
 .recept div{
     margin: 8px;
+   
 }
 
 section div{
     height: 200px;
     width: 170px;
-   
-    
 }
 
 .bulle1 img{
@@ -95,7 +94,7 @@ section div{
     border: 2px solid white;
     border-radius: 30px;
     width: 750px;
-    height: 500px;
+    height: 450px;
 }
 
 .steg1 img{
